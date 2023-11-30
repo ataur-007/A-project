@@ -1,0 +1,94 @@
+@media only screen and (min-width:992px) and (max-width: 1200px){
+
+    body{
+        background-image: linear-gradient(45deg, tomato, rgb(199, 117, 102));
+        padding: 20px;
+ 
+    }
+
+    .logo {
+        width: 167px;
+        padding-left: 44px;
+        
+    }
+
+    nav>ul {
+        list-style: none;
+        display: inline-block;
+        width: 78%;
+        margin-top: 95px;
+     }
+     .main-section {
+        padding: 50px 0 50px 120px;
+    }
+    li {
+ 
+        padding: 0 10px;
+    }
+    .he {
+
+        padding: 50px 73px;
+    }
+
+    .main-section {
+        padding: 50px 0 50px 91px;
+    }
+}
+
+
+   @media only screen and (min-width:768px) and (max-width: 992px){
+
+
+            body{
+                padding: 5px;
+            }
+            .header-section {
+                width: 0%;
+            }
+
+            .top-head {
+                padding: 5px 0 5px 16px;
+            }
+            .logo {
+                width: 113px;
+                align-items: center;
+                margin-top: 30px;
+                padding-left: 34px;
+                position: relative;
+                top: 10px;
+                margin-bottom: -5px;
+            }
+            li {
+                padding: 0 3px;
+                float: right;
+                justify-content: space-between;
+            }
+            .btn{
+                visibility: hidden;
+            }
+            li a {
+                font-size: 15px;
+                align-items: center;
+                position: relative;
+                bottom: 18px;
+                font-family: cursive;
+            }
+            .logo {
+
+                top: -15px;
+                margin-bottom: -5px;
+            }
+            .he {
+                /* display: flex; */
+                align-items: center;
+                padding: 50px 150px;
+            }
+            .btn {
+                /* background-image: linear-gradient(45deg, #FF3533, #db3633, #d65b58); */
+                color: white;
+                padding: 7px 15px;
+                border: 1px solid white;
+                border-radius: 9px;
+                background-color: aqua ;
+            }
+   }
